@@ -5,9 +5,12 @@
 # SETUP
 
 1. usuários
-    ```sh
-    useradd -r zanthus; useradd postgres
-    ```
+    | usuario | comando |
+    | apache  | ```sh
+                   useradd -r zanthus
+                ``` 
+                |
+  
 1. diretórios
     ```sh
     cd /; mkdir backup infra web data; cd /infra; mkdir _env libs logs pacotes tmpz utils primeshare; mkdir -p /Zanthus/Zeus/Manager
