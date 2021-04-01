@@ -5,6 +5,7 @@
 # SETUP
 
 1. usuários
+
     | usuario | comando |
     | apache  | ```sh
                    useradd -r zanthus
