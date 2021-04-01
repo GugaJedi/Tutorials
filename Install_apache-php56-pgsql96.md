@@ -10,10 +10,10 @@
         useradd -r zanthus; useradd postgres
         ```
 
-    2. Diretórios
+    1. Diretórios
 
         ```
         cd /; mkdir backup infra web data; cd /infra; mkdir _env libs logs pacotes tmpz utils primeshare
         ```
 
-    3. 
+    1. 
