@@ -67,9 +67,9 @@
 
 ## Tabelas
 
-| ~~header1~~    | header2 | [headern][bing] | <a href="https://yahoo.com">headern2</a> |
-| -------------- | ------- | --------------- | ---------------------------------------- |
-| Instalar `git` | windows | linux           | mac                                      |
+| ~~header1~~    | header2 | [headern][link_bing] | <a href="https://yahoo.com">headern2</a> |
+| -------------- | ------- | -------------------- | ---------------------------------------- |
+| Instalar `git` | windows | linux                | mac                                      |
 
 
 [google](https://google.com)
