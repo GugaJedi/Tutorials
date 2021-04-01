@@ -49,11 +49,11 @@
         ```sh
         cd /pacotes && curl -O https://www.zlib.net/zlib-1.2.11.tar.gz && cp -farp zlib-1.2.11.tar.gz /usr/src/ && cd /usr/src/ && tar -xzf zlib-1.2.11.tar.gz && cd zlib-1.2.11 && ./configure --prefix=/usr/local/lib64 && make && make install
         ```
-    - libxml2
+    - `libxml2`
         ```sh
         cd /pacotes && curl -O ftp://xmlsoft.org/libxml2/libxml2-2.9.9.tar.gz && cp -farp libxml2-2.9.9.tar.gz /usr/src/ && cd /usr/src/ && tar -xzf libxml2-2.9.9.tar.gz && cd libxml2-2.9.9 && ./configure --prefix=/usr/local/lib64 && make && make install
        ```
-    - postgres
+    - `postgres`
         ```sh
         cd /pacotes && curl -O https://ftp.postgresql.org/pub/source/v9.6.21/postgresql-9.6.21.tar.gz && cp -arp postgresql-9.6.21.tar.gz /usr/src && cd /usr/src/ && tar -xzf postgresql-9.6.21.tar.gz && cd postgresql-9.6.21 && ./configure --prefix=/usr/local/pgsql --without-readline && make && make install
         ```
