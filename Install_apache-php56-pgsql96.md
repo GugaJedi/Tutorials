@@ -61,3 +61,9 @@
             ```sh
             ln -sf /usr/local/pgsql/bin/psql /usr/bin/psql; ln -sf /usr/local/pgsql /var/lib/pgsql
             ```
+
+# Tabelas
+
+| header1      | header2 | headern | headern2 |
+| ------------ | ------- | ------- | -------- |
+| Instalar git | windows | linux   | mac      |
