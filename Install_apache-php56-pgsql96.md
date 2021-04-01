@@ -49,6 +49,5 @@
     ```
       1. links simbólicos
         ```
-        ln -sf /usr/local/pgsql/bin/psql /usr/bin/psql
-        ln -sf /usr/local/pgsql /var/lib/pgsql
+        ln -sf /usr/local/pgsql/bin/psql /usr/bin/psql; ln -sf /usr/local/pgsql /var/lib/pgsql
         ```
