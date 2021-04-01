@@ -13,13 +13,21 @@ Para o funcionamento adequado dessa instalação é necessário criar os dois us
 | apache   | `useradd -r apache`  | como o usuário apache é um daemon usamos o `-r` para não criar a estrutura de usuário no Linux |
 | postgres | `useradd postgres`   |                                                                                                |
   
-1. diretórios
+## Diretórios
+
+| estrutura | local  | create |
+| --------- | ------ | ------ |
+| `root`      | `/`      | `cd /; mkdir backup infra web data` |
+| `root`      | `/`      | `mkdir -p /Zanthus/Zeus/Manager` |
+| `infra`     | `/infra` | `cd /infra; mkdir _env libs logs pacotes tmpz utils primeshare` |
+
     ```sh
-    cd /; mkdir backup infra web data; cd /infra; mkdir _env libs logs pacotes tmpz utils primeshare; mkdir -p /Zanthus/Zeus/Manager
+    ; ; mkdir -p /Zanthus/Zeus/Manager
     ```
     1. permissões de diretórios
     ```
-    chown -fR zanthus.zanthus /Zanthus
+    chown -fR apache.apache /web
+    chown -fR apache.apache /Zanthus
     chown -fR postgres.postgres /data
     ```
 1. repositórios
