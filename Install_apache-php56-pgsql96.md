@@ -1,6 +1,6 @@
 # TUTORIAL
 
-## Instalação de Servidor Zanthus para Ambiente Cloud
+Instalação de Servidor Zanthus para Ambiente Cloud
 
 ---
 
