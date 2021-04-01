@@ -4,11 +4,11 @@
 
 # SETUP
 
-1. Usuários
+1. usuários
     ```sh
     useradd -r zanthus; useradd postgres
     ```
-1. Diretórios
+1. diretórios
     ```sh
     cd /; mkdir backup infra web data; cd /infra; mkdir _env libs logs pacotes tmpz utils primeshare; mkdir -p /Zanthus/Zeus/Manager
     ```
@@ -17,7 +17,7 @@
     chown -fR zanthus.zanthus /Zanthus
     chown -fR postgres.postgres /data
     ```
-1. Repositórios
+1. repositórios
     ```
     cd /home/'seu-usuario'/
     curl -O http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
@@ -33,4 +33,13 @@
 1. yum
     ```
     yum -y install wget gcc gcc-c++ zlib-devel libxml2-devel openssl-devel curl-devel freetype-devel gd-devel libjpeg-devel libpng-devel python-devel openldap-devel libmcrypt-devel bzip2-devel kernel-devel kernel-headers bzip2 memcached telnet links nfs-utils autoconf ftp curl vim-enhanced zip unzip htop iotop rsync ntsysv nss curl socat dkms make perl net-tools perl-Digest-MD5 lvm2 git nvme-cli syslog-ng cifs-utils openssl098e zabbix-agent nodejs yarn ncurses ncurses-devel geoip-devel libmaxminddb-devel openssl-devel tokyocabinet-devel goaccess tcpdump erlang traceroute net-snmp; yum -y upgrade
+    ```
+1. pacotes compilados
+    - zlib
+    ```
+    cd /pacotes && curl -O https://www.zlib.net/zlib-1.2.11.tar.gz && cp -farp zlib-1.2.11.tar.gz /usr/src/ && cd /usr/src/ && tar -xzf zlib-1.2.11.tar.gz && cd zlib-1.2.11 && ./configure --prefix=/usr/local/lib64 && make && make install
+    ```
+    - libxml2
+    ```
+    cd /pacotes && curl -O ftp://xmlsoft.org/libxml2/libxml2-2.9.9.tar.gz && cp -farp libxml2-2.9.9.tar.gz /usr/src/ && cd /usr/src/ && tar -xzf libxml2-2.9.9.tar.gz && cd libxml2-2.9.9 && ./configure --prefix=/usr/local/lib64 && make && make install
     ```
