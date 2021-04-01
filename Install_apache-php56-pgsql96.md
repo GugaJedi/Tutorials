@@ -6,9 +6,12 @@
 
 ## Usuários
 
-| usuario | comando              |
-| ------- | -------------------- |
-| apache  | `useradd -r zanthus` |
+Para o funcionamento adequado dessa instalação é necessário criar os dois usuários abaixo.
+
+| usuario  | comando              |
+| -------- | -------------------- |
+| apache   | `useradd -r apache`  |
+| postgres | `useradd postgres`   |
   
 1. diretórios
     ```sh
