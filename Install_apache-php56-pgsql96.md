@@ -4,13 +4,11 @@
 
 # SETUP
 
-1. usuários
+## Usuários
 
-    | usuario | comando |
-    | apache  | ```sh
-                   useradd -r zanthus
-                ``` 
-                |
+| usuario | comando              |
+| ------- | -------------------- |
+| apache  | `useradd -r zanthus` |
   
 1. diretórios
     ```sh
@@ -66,8 +64,16 @@
             ln -sf /usr/local/pgsql/bin/psql /usr/bin/psql; ln -sf /usr/local/pgsql /var/lib/pgsql
             ```
 
-# Tabelas
 
-| header1      | header2 | headern | headern2 |
-| ------------ | ------- | ------- | -------- |
-| Instalar git | windows | linux   | mac      |
+## Tabelas
+
+| ~~header1~~    | header2 | [headern][bing] | <a href="https://yahoo.com">headern2</a> |
+| -------------- | ------- | --------------- | ---------------------------------------- |
+| Instalar `git` | windows | linux           | mac                                      |
+
+
+[google](https://google.com)
+[bing][link_bing]
+
+[link_bing]: https://bing.com
+
