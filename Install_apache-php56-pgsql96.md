@@ -44,10 +44,10 @@
         cd /pacotes && curl -O ftp://xmlsoft.org/libxml2/libxml2-2.9.9.tar.gz && cp -farp libxml2-2.9.9.tar.gz /usr/src/ && cd /usr/src/ && tar -xzf libxml2-2.9.9.tar.gz && cd libxml2-2.9.9 && ./configure --prefix=/usr/local/lib64 && make && make install
        ```
     - postgres
-       ```sh
-    cd /pacotes && curl -O https://ftp.postgresql.org/pub/source/v9.6.21/postgresql-9.6.21.tar.gz && cp -arp postgresql-9.6.21.tar.gz /usr/src && cd /usr/src/ && tar -xzf postgresql-9.6.21.tar.gz && cd postgresql-9.6.21 && ./configure --prefix=/usr/local/pgsql --without-readline && make && make install
-       ```
-       1. links simbólicos
-           ```sh
-           ln -sf /usr/local/pgsql/bin/psql /usr/bin/psql; ln -sf /usr/local/pgsql /var/lib/pgsql
-           ```
+        ```sh
+        cd /pacotes && curl -O https://ftp.postgresql.org/pub/source/v9.6.21/postgresql-9.6.21.tar.gz && cp -arp postgresql-9.6.21.tar.gz /usr/src && cd /usr/src/ && tar -xzf postgresql-9.6.21.tar.gz && cd postgresql-9.6.21 && ./configure --prefix=/usr/local/pgsql --without-readline && make && make install
+        ```
+        1. links simbólicos
+            ```sh
+            ln -sf /usr/local/pgsql/bin/psql /usr/bin/psql; ln -sf /usr/local/pgsql /var/lib/pgsql
+            ```
