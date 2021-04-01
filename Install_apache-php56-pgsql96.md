@@ -30,3 +30,7 @@
     rpm --import http://www.webmin.com/jcameron-key.asc
     yum -y install *.rpm
     ```
+1. yum
+    ```
+    yum -y install wget gcc gcc-c++ zlib-devel libxml2-devel openssl-devel curl-devel freetype-devel gd-devel libjpeg-devel libpng-devel python-devel openldap-devel libmcrypt-devel bzip2-devel kernel-devel kernel-headers bzip2 memcached telnet links nfs-utils autoconf ftp curl vim-enhanced zip unzip htop iotop rsync ntsysv nss curl socat dkms make perl net-tools perl-Digest-MD5 lvm2 git nvme-cli syslog-ng cifs-utils openssl098e zabbix-agent nodejs yarn ncurses ncurses-devel geoip-devel libmaxminddb-devel openssl-devel tokyocabinet-devel goaccess tcpdump erlang traceroute net-snmp; yum -y upgrade
+    ```
