@@ -2,6 +2,8 @@
 
 ## Instalação de Servidor Zanthus para Ambiente Cloud
 
+---
+
 # SETUP
 
 ## Usuários
@@ -15,10 +17,10 @@ Para o funcionamento adequado dessa instalação é necessário criar os dois us
   
 ## Diretórios
 
-| estrutura | local  | create |
-| --------- | ------ | ------ |
-| `root`      | `/`      | `cd /; mkdir backup infra web data` |
-| `root`      | `/`      | `mkdir -p /Zanthus/Zeus/Manager` |
+| estrutura   | local    | create                                                          |
+| ----------- | -------- | --------------------------------------------------------------- |
+| `root`      | `/`      | `cd /; mkdir backup infra web data`                             |
+| `root`      | `/`      | `mkdir -p /Zanthus/Zeus/Manager`                                |
 | `infra`     | `/infra` | `cd /infra; mkdir _env libs logs pacotes tmpz utils primeshare` |
 
     ```sh
