@@ -8,10 +8,10 @@
 
 Para o funcionamento adequado dessa instalação é necessário criar os dois usuários abaixo.
 
-| usuario  | comando              |
-| -------- | -------------------- |
-| apache   | `useradd -r apache`  |
-| postgres | `useradd postgres`   |
+| usuario  | comando              | obs                                                                                            |
+| -------- | -------------------- | ---------------------------------------------------------------------------------------------- |
+| apache   | `useradd -r apache`  | como o usuário apache é um daemon usamos o `-r` para não criar a estrutura de usuário no Linux |
+| postgres | `useradd postgres`   |                                                                                                |
   
 1. diretórios
     ```sh
