@@ -16,7 +16,7 @@
     ./composer.phar dump-autoload
 ```
 
-2. para preparar o banco de dados rode o comando abaixo APENAS EM UM dos servidores de aplicação.
+1. para preparar o banco de dados rode o comando abaixo APENAS EM UM dos servidores de aplicação.
 
 ```sh
     php artisan migrate:refresh --seed
